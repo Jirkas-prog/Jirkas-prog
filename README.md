@@ -41,9 +41,23 @@ Samostatný repozitář `fastshare-play` uchovává starší vývoj. Nové aktua
 | [**Termux Zephyr**](https://github.com/Jirkas-prog/termux-zephyr-android) | Android projekt založený na Termuxu |
 | [**Jirka Store**](https://github.com/Jirkas-prog/jirka-store) | Android klient společného katalogu |
 
-## ESP32 a Linux
+## ESP32
 
-ESP32 firmware spravujeme po samostatných projektech. Veřejné odkazy a balíčky se do rozcestníku doplní při jejich vydání.
+Zdrojové kódy, nastavení sestavení a testy pro jednotlivá zařízení:
+
+| Projekt | Zaměření |
+| :--- | :--- |
+| [**Z-Lamp**](https://github.com/Jirkas-prog/z-lamp) | Zigbee světla, Wi-Fi/BLE brána a Android klient |
+| [**IRrem**](https://github.com/Jirkas-prog/irrem) | Infračervený ovladač, MQTT a Home Assistant |
+| [**ESP Termostat**](https://github.com/Jirkas-prog/esp-termostat) | Experimentální dvojice propojených jednotek |
+| [**ESP Termostat Solo**](https://github.com/Jirkas-prog/esp-termostat-solo) | Samostatná jednotka, teplotní sondy, web a MQTT |
+| [**ESP Christmas Lights**](https://github.com/Jirkas-prog/esp-christmas-lights) | LED řetěz, stmívání, režimy a časové plány |
+| [**ESP LoRa Chat**](https://github.com/Jirkas-prog/esp-lora-chat) | Lokální chat a přenos dat mezi dvěma rádiovými uzly |
+| [**ESP Desk Buddy**](https://github.com/Jirkas-prog/esp-desk-buddy) | Stolní kamarád s animovanými očima a Home Assistant Assist |
+
+Jde o zdrojové snímky; konkrétní provedené kontroly a omezení jsou v `VALIDATION.md` každého projektu. Osobní konfiguraci si doplňte až místně. Tyto importy nepřidávají nová binární vydání.
+
+## Linux
 
 Samostatná ověřená linuxová vydání zatím v tomto přehledu nejsou. Dostupnost zdrojového kódu sama o sobě nepotvrzuje podporu Linuxu; rozhoduje dokumentace konkrétního projektu.
 
