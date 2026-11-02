@@ -1,66 +1,66 @@
 # Jirkas-prog
 
-**Home Assistant · PC aplikace · Android · ESP32**
+**Home Assistant · Desktop apps · Android · ESP32**
 
-Nástroje pro vlastní zařízení, domácí automatizaci a tvoření. Tento rozcestník pomáhá najít zdrojové kódy, instalaci a aktuální vydání.
+Tools for personal devices, home automation and creative work. Use this directory to find source code, installation instructions and current releases.
 
-[Doplňky pro Home Assistant](https://github.com/Jirkas-prog/home-assistant-addons) · [Jirka Store](https://github.com/Jirkas-prog/jirka-store) · [Instalační balíčky](https://github.com/Jirkas-prog/jirka-store/releases)
+[Home Assistant add-ons](https://github.com/Jirkas-prog/home-assistant-addons) · [Jirka Store](https://github.com/Jirkas-prog/jirka-store) · [Downloads](https://github.com/Jirkas-prog/jirka-store/releases)
 
 ---
 
 ## Home Assistant
 
-Společný repozitář pro instalace a aktualizace doplňků:
+The shared repository for add-on installation and updates:
 
 ```text
 https://github.com/Jirkas-prog/home-assistant-addons
 ```
 
-Přidejte adresu v Home Assistantu do seznamu repozitářů obchodu s doplňky. Dokumentaci a podmínky jednotlivých aplikací najdete v jejich složkách.
+Add this address to the repository list in the Home Assistant add-on store. Each application's directory contains its documentation and requirements.
 
-| Projekt | Kde začít |
+| Project | Get started |
 | :--- | :--- |
-| **Home Assistant Add-ons** | [Přehled doplňků a instalace](https://github.com/Jirkas-prog/home-assistant-addons#readme) |
-| **FastShare Play** | [Aktuální zdroje ve společném repozitáři](https://github.com/Jirkas-prog/home-assistant-addons/tree/main/fastshare_play) |
+| **Home Assistant Add-ons** | [Add-on directory and installation](https://github.com/Jirkas-prog/home-assistant-addons#readme) |
+| **FastShare Play** | [Current source in the shared repository](https://github.com/Jirkas-prog/home-assistant-addons/tree/main/fastshare_play) |
 
-Samostatný repozitář `fastshare-play` uchovává starší vývoj. Nové aktualizace FastShare Play patří do společného repozitáře výše.
+The standalone `fastshare-play` repository preserves earlier development. New FastShare Play updates are published in the shared repository above.
 
-## PC a Windows
+## Desktop and Windows
 
-| Projekt | Zaměření | Odkazy |
+| Project | Purpose | Links |
 | :--- | :--- | :--- |
-| **Jirka Store** | Obchod a launcher se společným katalogem aplikací | [Zdrojové kódy](https://github.com/Jirkas-prog/jirka-store) · [Vydání](https://github.com/Jirkas-prog/jirka-store/releases) |
-| **FreeCAD Fusion** | Rozhraní pro FreeCAD: ribbon, strom modelu, časová osa a nástroje CAD | [Dokumentace a stav podpory](https://github.com/Jirkas-prog/freecad-fusion#readme) |
+| **Jirka Store** | App store and launcher with a shared application catalog | [Source](https://github.com/Jirkas-prog/jirka-store) · [Releases](https://github.com/Jirkas-prog/jirka-store/releases) |
+| **FreeCAD Fusion** | FreeCAD interface with a ribbon, model tree, timeline and CAD tools | [Documentation and compatibility](https://github.com/Jirkas-prog/freecad-fusion#readme) |
 
 ## Android
 
-| Projekt | Zaměření |
+| Project | Purpose |
 | :--- | :--- |
-| [**ArtCraft**](https://github.com/Jirkas-prog/artcraft_android) | Aplikace pro Android a tablet |
-| [**FreeCAD Android**](https://github.com/Jirkas-prog/freecad-android) | Experimentální offline CAD s WebAssembly a rozhraním FusionFlow |
-| [**Termux Zephyr**](https://github.com/Jirkas-prog/termux-zephyr-android) | Android projekt založený na Termuxu |
-| [**Jirka Store**](https://github.com/Jirkas-prog/jirka-store) | Android klient společného katalogu |
+| [**ArtCraft**](https://github.com/Jirkas-prog/artcraft_android) | Applications for Android phones and tablets |
+| [**FreeCAD Android**](https://github.com/Jirkas-prog/freecad-android) | Experimental offline CAD with WebAssembly and the FusionFlow interface |
+| [**Termux Zephyr**](https://github.com/Jirkas-prog/termux-zephyr-android) | An Android project based on Termux |
+| [**Jirka Store**](https://github.com/Jirkas-prog/jirka-store) | Android client for the shared application catalog |
 
 ## ESP32
 
-Zdrojové kódy, nastavení sestavení a testy pro jednotlivá zařízení:
+Source code, build configuration and tests for individual devices:
 
-| Projekt | Zaměření |
+| Project | Purpose |
 | :--- | :--- |
-| [**Z-Lamp**](https://github.com/Jirkas-prog/z-lamp) | Zigbee světla, Wi-Fi/BLE brána a Android klient |
-| [**IRrem**](https://github.com/Jirkas-prog/irrem) | Infračervený ovladač, MQTT a Home Assistant |
-| [**ESP Termostat**](https://github.com/Jirkas-prog/esp-termostat) | Experimentální dvojice propojených jednotek |
-| [**ESP Termostat Solo**](https://github.com/Jirkas-prog/esp-termostat-solo) | Samostatná jednotka, teplotní sondy, web a MQTT |
-| [**ESP Christmas Lights**](https://github.com/Jirkas-prog/esp-christmas-lights) | LED řetěz, stmívání, režimy a časové plány |
-| [**ESP LoRa Chat**](https://github.com/Jirkas-prog/esp-lora-chat) | Lokální chat a přenos dat mezi dvěma rádiovými uzly |
-| [**ESP Desk Buddy**](https://github.com/Jirkas-prog/esp-desk-buddy) | Stolní kamarád s animovanými očima a Home Assistant Assist |
+| [**Z-Lamp**](https://github.com/Jirkas-prog/z-lamp) | Zigbee lights, a Wi-Fi/BLE gateway and an Android client |
+| [**IRrem**](https://github.com/Jirkas-prog/irrem) | Infrared remote control, MQTT and Home Assistant |
+| [**ESP Termostat**](https://github.com/Jirkas-prog/esp-termostat) | An experimental pair of connected thermostat units |
+| [**ESP Termostat Solo**](https://github.com/Jirkas-prog/esp-termostat-solo) | A standalone controller with temperature probes, web UI and MQTT |
+| [**ESP Christmas Lights**](https://github.com/Jirkas-prog/esp-christmas-lights) | LED string control, dimming, effects and schedules |
+| [**ESP LoRa Chat**](https://github.com/Jirkas-prog/esp-lora-chat) | Local chat and data transfer between two radio nodes |
+| [**ESP Desk Buddy**](https://github.com/Jirkas-prog/esp-desk-buddy) | A desktop companion with animated eyes and Home Assistant Assist |
 
-Jde o zdrojové snímky; konkrétní provedené kontroly a omezení jsou v `VALIDATION.md` každého projektu. Osobní konfiguraci si doplňte až místně. Tyto importy nepřidávají nová binární vydání.
+These are source snapshots. Each project's `VALIDATION.md` records the checks performed and their limits. Configure personal settings locally. These imports do not provide new binary releases.
 
 ## Linux
 
-Samostatná ověřená linuxová vydání zatím v tomto přehledu nejsou. Dostupnost zdrojového kódu sama o sobě nepotvrzuje podporu Linuxu; rozhoduje dokumentace konkrétního projektu.
+This directory does not currently list separate, verified Linux releases. Available source code alone does not establish Linux support; consult the documentation for the individual project.
 
 ---
 
-**Před instalací:** ověřte platformu, verzi a požadavky v dokumentaci projektu. Zdrojový snímek a vydaný instalační balík mohou mít odlišný stav rozpracovanosti.
+**Before installing:** check the platform, version and requirements in the project's documentation. A source snapshot and a released installation package may represent different stages of development.
